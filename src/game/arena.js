@@ -4,7 +4,7 @@ export const createArena = (canvasW, canvasH) => {
     const h = Math.max(360, canvasH - margin * 2)
     return { x: margin, y: margin, w, h}
 }
-
+// draw arena
 export const drawArena = (ctx, arena) => {
     ctx.fillstyle = "#0e0f13"
     ctx.fillRect(0, 0, ctx.canvas.with, ctx.canvas.height)
